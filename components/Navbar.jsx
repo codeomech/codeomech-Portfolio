@@ -12,10 +12,19 @@ const Navbar = () => {
         <img className="w-14 mx-7 cursor-pointer" src={logo} alt="logo"></img>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaMediumM />
-        <FaLinkedin />
+        <a href="https://github.com/codeomech" target="_blank">
+          <FaGithub />{' '}
+        </a>
+        <a href="https://x.com/Harshhhhhhit" target="_blank">
+          {' '}
+          <FaSquareXTwitter />{' '}
+        </a>
+        <a href="https://medium.com/@harshitmangla96" target="_blank">
+          <FaMediumM />{' '}
+        </a>
+        <a href="https://github.com/codeomech" target="_blank">
+          <FaLinkedin />
+        </a>
       </div>
     </nav>
   );
