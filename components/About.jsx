@@ -1,11 +1,12 @@
 import aboutImg from '../assets/hehehe.jpg';
 import { ABOUT_TEXT } from '../constants';
 import { motion } from 'framer-motion';
+import Characteristics from './Characterstics';
 
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">
+      <h1 className="my-10 text-center text-4xl">
         About
         <span className="text-neutral-500"> Me</span>
       </h1>
@@ -34,6 +35,12 @@ const About = () => {
             <p className="my-2 py-6 max-w-xl">{ABOUT_TEXT}</p>
           </div>
         </motion.div>
+      </div>
+      <div>
+        <h1 className="my-10 text-center font-playwrite text-6xl">
+          Characterstics
+        </h1>
+        <Characteristics />
       </div>
     </div>
   );

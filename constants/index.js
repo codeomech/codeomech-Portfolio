@@ -64,6 +64,32 @@ export const PROJECTS = [
   },
 ];
 
+export const characteristics = [
+  {
+    identity: 'wannabe guitarist',
+    action: 'smooth web things',
+    trait: 'fast learner',
+    wish: 'work with you',
+  },
+  {
+    identity: 'sports fanatic',
+    action: 'Singing',
+    trait: 'friendly',
+    wish: 'play Piano',
+  },
+  {
+    identity: 'movie eater',
+    action: 'breathing',
+    trait: 'easy to live',
+    wish: 'watch real madrid',
+  },
+  {
+    identity: 'Creative person',
+    action: 'running and lifting',
+    trait: 'good listener',
+    wish: 'work again with you',
+  },
+];
 // const technologies = [
 //   {
 //     name: 'HTML 5',
