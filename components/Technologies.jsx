@@ -1,6 +1,8 @@
 import {
   RiAngularjsLine,
+  RiCss3Fill,
   RiHtml5Line,
+  RiJavaFill,
   RiNextjsLine,
   RiNodejsLine,
   RiReactjsLine,
@@ -86,6 +88,22 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiHtml5Line className="text-7xl text-orange-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiCss3Fill className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiJavaFill className="text-7xl text-orange-300" />
         </motion.div>
       </motion.div>
     </div>

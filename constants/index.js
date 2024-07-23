@@ -3,30 +3,11 @@ import project2 from '../assets/projects/project-2.jpg';
 import project3 from '../assets/projects/project-3.jpg';
 import project4 from '../assets/projects/project-4.jpg';
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React, Angular and Next.js, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
-export const EXPERIENCES = [
-  {
-    year: '2022-Aug - Present',
-    role: 'Senior Software Engineer',
-    company: 'Capgemini',
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ['Javascript', 'React.js', 'Next.js', 'mongoDB'],
-  },
-  {
-    year: '2022 - 2023',
-    role: 'Frontend Developer',
-    company: 'Adobe',
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ['HTML', 'CSS', 'Vue.js', 'mySQL'],
-  },
-];
+export const HERO_CONTENT = `I am a frontend engineer who loves to craft beautiful products on web. i'm currently working as a senior Software engineer at Capgemini, where i handle Client Projects and create responsive Web apps. Other than That I love being outside, cracking stupid jokes, Obsess over new things every two week, Currently, i'm exploring AI / LLMs, framer-motion and Three JS`;
 
 export const PROJECTS = [
   {
-    title: 'Streaming Platform',
+    title: 'TrailerGPT Streaming Platform',
     image: project1,
     description:
       'TrailerGPT is a fully functional application with authentication that allows you to watch or stream any movie trailer without interruptions from ads. Leveraging GEN AI, TrailerGPT enhanced search functionalities, enabling users to find trailers that match their mood or specific descriptions.',
@@ -34,18 +15,11 @@ export const PROJECTS = [
     link: 'https://netflixgpt-hersheyt.web.app/',
   },
   {
-    title: 'Task Management App',
+    title: 'Zzzzzz Food Delievery app',
     image: project2,
     description:
-      'An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.',
-    technologies: ['HTML', 'CSS', 'Angular', 'Firebase'],
-  },
-  {
-    title: 'Portfolio Website',
-    image: project3,
-    description:
-      'A personal portfolio website showcasing projects, skills, and contact information.',
-    technologies: ['HTML', 'CSS', 'React', 'Bootstrap'],
+      'An application for Placing order to the nearby restaurants, Using Swiggy APIs for the Data, Creating Landing Page,Cart, and Search page while integrating lazy laoding and page optimisation techniques',
+    technologies: ['HTML', 'CSS', 'React', 'Redux'],
   },
   {
     title: ' ChaosDown Blogging Platform',
@@ -90,57 +64,3 @@ export const characteristics = [
     wish: 'work again with you',
   },
 ];
-// const technologies = [
-//   {
-//     name: 'HTML 5',
-//     icon: html,
-//   },
-//   {
-//     name: 'CSS 3',
-//     icon: css,
-//   },
-//   {
-//     name: 'JavaScript',
-//     icon: javascript,
-//   },
-//   {
-//     name: 'TypeScript',
-//     icon: typescript,
-//   },
-//   {
-//     name: 'React JS',
-//     icon: reactjs,
-//   },
-//   {
-//     name: 'Angular',
-//     icon: angular,
-//   },
-//   {
-//     name: 'Redux Toolkit',
-//     icon: redux,
-//   },
-//   {
-//     name: 'Tailwind CSS',
-//     icon: tailwind,
-//   },
-//   {
-//     name: 'Node JS',
-//     icon: nodejs,
-//   },
-//   {
-//     name: 'MongoDB',
-//     icon: mongodb,
-//   },
-//   {
-//     name: 'git',
-//     icon: git,
-//   },
-//   {
-//     name: 'figma',
-//     icon: figma,
-//   },
-//   {
-//     name: 'docker',
-//     icon: docker,
-//   },
-// ];

@@ -1,6 +1,8 @@
 import { HERO_CONTENT } from '../constants/index';
-import profilePic from '../assets/kevinRushProfile.png';
 import { motion } from 'framer-motion';
+import TextEffect from './TextEffect';
+import Rounded from '../common/RoundedButton';
+
 const Hero = () => {
   const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -14,12 +16,12 @@ const Hero = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start ml-8">
+          <div className="flex flex-col items-center lg:items-start lg:ml-8">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-10 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Harshit
             </motion.h1>
@@ -27,15 +29,14 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              <TextEffect />
             </motion.span>
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 tracking-tighter font-light"
+              className="my-2 max-w-xl text-xl py-6 tracking-tighter font-light"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -47,7 +48,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
+              src="/mainIconsdark.svg"
               alt="profilePic"
             ></motion.img>
           </div>

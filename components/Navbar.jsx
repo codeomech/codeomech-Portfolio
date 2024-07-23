@@ -6,11 +6,12 @@ import { FaMediumM } from 'react-icons/fa';
 import { BugAntIcon } from '@heroicons/react/24/solid';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import Magnetic from '../common/RoundedButton/Magnetic';
 
 const Navbar = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="mb-10 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <motion.div
           initial={{ y: -200, opacity: 1 }}
@@ -27,7 +28,9 @@ const Navbar = () => {
             animate={{ color: isHovered ? '#4f3a87' : '#ffffff' }} // Change color on hover
             transition={{ duration: 0.3 }}
           >
-            <BugAntIcon className="size-10 cursor-pointer" />
+            <Magnetic>
+              <BugAntIcon className="size-10 cursor-pointer" />
+            </Magnetic>
           </motion.div>
         </motion.div>
       </div>

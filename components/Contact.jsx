@@ -68,7 +68,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div
-        className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+        className={`xl:mt-12 flex xl:flex-row flex-col-reverse lg:gap-10 overflow-hidden`}
       >
         <motion.div
           variants={slideIn('left', 'tween', 0.2, 1)}
@@ -122,7 +122,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="hover:bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 py-3 px-8 rounded-xl bg-slate-900 outline-none w-fit font-bold shadow-md shadow-primary"
+              className="hover:bg-purple-900 py-3 px-8 rounded-xl bg-slate-900 outline-none w-fit font-bold shadow-md shadow-primary"
             >
               {loading ? 'Sending...' : 'Send'}
             </button>

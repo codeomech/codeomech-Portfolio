@@ -1,5 +1,4 @@
 import aboutImg from '../assets/hehehe.jpg';
-import { ABOUT_TEXT } from '../constants';
 import { motion } from 'framer-motion';
 import Characteristics from './Characterstics';
 
@@ -17,12 +16,8 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2 lg:p-8"
         >
-          <div className="flex items-center justify-center">
-            <img
-              className="h-1/2 w-1/2 rounded-md"
-              src={aboutImg}
-              alt="aboutImg"
-            ></img>
+          <div className="flex items-center justify-center lg:justify-start">
+            <Characteristics />
           </div>
         </motion.div>
         <motion.div
@@ -31,16 +26,14 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2"
         >
-          <div className="flex justify-center lg:justify-start">
-            <p className="my-2 py-6 max-w-xl">{ABOUT_TEXT}</p>
+          <div className="flex justify-center lg:justify-end">
+            <img
+              className="h-1/2 w-1/2 rounded-md"
+              src={aboutImg}
+              alt="aboutImg"
+            ></img>
           </div>
         </motion.div>
-      </div>
-      <div>
-        <h1 className="my-10 text-center font-playwrite text-6xl">
-          Characterstics
-        </h1>
-        <Characteristics />
       </div>
     </div>
   );
