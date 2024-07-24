@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { FaMediumM } from 'react-icons/fa';
@@ -35,19 +34,38 @@ const Navbar = () => {
         </motion.div>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://github.com/codeomech" target="_blank">
-          <FaGithub />{' '}
-        </a>
-        <a href="https://x.com/Harshhhhhhit" target="_blank">
-          {' '}
-          <FaSquareXTwitter />{' '}
-        </a>
-        <a href="https://medium.com/@harshitmangla96" target="_blank">
-          <FaMediumM />{' '}
-        </a>
-        <a href="https://github.com/codeomech" target="_blank">
+        <motion.a
+          href="https://github.com/codeomech"
+          target="_blank"
+          whileHover={{ rotate: 360 }}
+          transition={{ duration: 0.5 }}
+        >
+          <FaGithub />
+        </motion.a>
+        <motion.a
+          href="https://x.com/Harshhhhhhit"
+          target="_blank"
+          whileHover={{ rotate: 360 }}
+          transition={{ duration: 0.5 }}
+        >
+          <FaSquareXTwitter />
+        </motion.a>
+        <motion.a
+          href="https://medium.com/@harshitmangla96"
+          target="_blank"
+          whileHover={{ rotate: 360 }}
+          transition={{ duration: 0.5 }}
+        >
+          <FaMediumM />
+        </motion.a>
+        <motion.a
+          href="https://www.linkedin.com/in/harshitmngl/"
+          target="_blank"
+          whileHover={{ rotate: 360 }}
+          transition={{ duration: 0.5 }}
+        >
           <FaLinkedin />
-        </a>
+        </motion.a>
       </div>
     </nav>
   );

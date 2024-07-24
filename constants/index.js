@@ -1,7 +1,6 @@
 import project1 from '../assets/projects/project-1.png';
-import project2 from '../assets/projects/project-2.jpg';
-import project3 from '../assets/projects/project-3.jpg';
-import project4 from '../assets/projects/project-4.jpg';
+import project2 from '../assets/projects/project-2.png';
+import project3 from '../assets/projects/project-3.png';
 
 export const HERO_CONTENT = `I am a frontend engineer who loves to craft beautiful products on web. i'm currently working as a senior Software engineer at Capgemini, where i handle Client Projects and create responsive Web apps. Other than That I love being outside, cracking stupid jokes, Obsess over new things every two week, Currently, i'm exploring AI / LLMs, framer-motion and Three JS`;
 
@@ -20,10 +19,11 @@ export const PROJECTS = [
     description:
       'An application for Placing order to the nearby restaurants, Using Swiggy APIs for the Data, Creating Landing Page,Cart, and Search page while integrating lazy laoding and page optimisation techniques',
     technologies: ['HTML', 'CSS', 'React', 'Redux'],
+    link: 'https://github.com/codeomech/ReactBaby',
   },
   {
     title: ' ChaosDown Blogging Platform',
-    image: project4,
+    image: project3,
     description:
       'A platform for creating and publishing blog posts, with features like rich text editing, Sharing , Likes,Advance Search and user profiles.',
     technologies: [
@@ -58,9 +58,9 @@ export const characteristics = [
     wish: 'watch real madrid',
   },
   {
-    identity: 'Creative person',
+    identity: 'creative person',
     action: 'running and lifting',
     trait: 'good listener',
-    wish: 'work again with you',
+    wish: 'run half marathon',
   },
 ];

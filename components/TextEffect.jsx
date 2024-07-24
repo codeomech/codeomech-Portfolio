@@ -14,7 +14,7 @@ const TextEffect = () => {
         1500,
       ]}
       speed={50}
-      className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent md:text-3xl"
+      className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent md:text-4xl"
       repeat={Infinity}
     />
   );
